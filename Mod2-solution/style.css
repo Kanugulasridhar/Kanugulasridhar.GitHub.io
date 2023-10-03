@@ -1,0 +1,91 @@
+
+        * {
+            box-sizing: border-box;
+            
+        }
+         div {
+        position: relative;
+        background-color: gray;
+        border: 3.5px solid black;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+        margin-top: 10%;
+        
+    }
+    h1 {
+        color: black;
+        text-align: center;
+        font-size: 50px;
+        margin-bottom: 15px;
+    }
+    #Hippo {
+        float: right;
+        width: 150px;
+        padding: 5px;
+        margin: -3px -3px 0px;
+        font-size: 125%;
+        font-weight: bold;
+        background-color: pink;
+        text-align: center;
+        
+    }
+    #Galen {
+        float: right;
+        width: 150px;
+        padding: 5px;
+        margin: -3px -3px 0px;
+        font-size: 125%;
+        font-weight: bold;
+        background-color: red;
+        text-align: center;
+    }
+    #Harvey {
+        float: right;
+        width: 150px;
+        padding: 5px;
+        margin: -3px -3px 0px;
+        font-size: 125%;
+        font-weight: bold;
+        background-color: #b2b237;
+        
+    }    
+    .content {
+        padding: 5px;
+        margin: 3px;
+        height: 220px;
+    }
+
+   /*Desktop view Options*/
+
+@media (min-width: 992px) {
+    .col-lg-4 {
+        float: left;
+      width: 33.33%;
+    }
+  }
+  /*Tablet view options*/
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6,.col-md-12 {
+      float: left;
+    }
+    .col-md-6 {
+      width: 50%;
+    }
+    .col-md-12 {
+      margin-left: -10px;
+      width: 100%;
+    }
+    
+  }
+  /*Mobile view options*/
+
+  @media (min-width: 0px) and (max-width: 767px) {
+    .col-sm-12 {
+        float: left;
+      width: 100%;
+    }
+    
+  }
